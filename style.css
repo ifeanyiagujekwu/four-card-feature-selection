@@ -1,0 +1,147 @@
+@media (max-width: 900px){
+    .container{
+        width: 90%;
+        margin: 20% auto;
+    }
+    
+    .container .first{
+        text-align: center;
+        font-size: 30px;
+        color: hsl(229, 6%, 66%);
+    }
+    
+    .container .second{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        color: hsl(234, 12%, 34%);
+        margin-top: 3%;
+        margin-bottom: 10%;
+    }
+    
+    .container .third{
+        font-size: 20px;
+        color: hsl(229, 6%, 66%);
+        text-align: center;
+    }
+    
+    .container .boxes{
+        margin: 30% 0%;
+    }
+    
+    .container .boxes .box1,.box2,.box3,.box4{
+        width: 90%;
+        margin: 10% auto;
+        box-shadow: 0 1px 0 0 hsl(229, 6%, 66%), 0 3px 10px 0 hsl(229, 6%, 66%);
+        padding: 1% 7%;
+        border-radius: 3px;
+    }
+    
+    .container .boxes .box1 h3,.box2 h3,.box3 h3,.box4 h3{
+        color: hsl(234, 12%, 34%);
+    
+    }
+    
+    .container .boxes .box1 p,.box2 p,.box3 p,.box4 p{
+        color: hsl(229, 6%, 66%);
+    
+    }
+    
+    .container .boxes .box1 img,.box2 img,.box3 img,.box4 img{
+        display: block;
+        align-items: center;
+        margin: 15% 0%;
+    }
+    
+    .container .boxes .box1{
+        border-top: 4px solid hsl(180, 62%, 55%);
+    }
+    
+    .container .boxes .box2{
+        border-top: 4px solid hsl(0, 78%, 62%);
+    }
+    
+    .container .boxes .box3{
+        border-top: 4px solid hsl(34, 97%, 64%);
+    }
+    
+    .container .boxes .box4{
+        border-top: 4px solid hsl(212, 86%, 64%);
+    }
+}
+
+
+
+
+@media (min-width: 901px){
+    .container{
+        width: 90%;
+        margin: 5% auto;
+    }
+    
+    .container .first{
+        text-align: center;
+        font-size: 30px;
+        color: hsl(229, 6%, 66%);
+    }
+    
+    .container .second{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        color: hsl(234, 12%, 34%);
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    
+    .container .third{
+        font-size: 15px;
+        color: hsl(229, 6%, 66%);
+        text-align: center;
+        width: 30%;
+        margin: auto auto;
+    }
+
+    .container .boxes .box1,.box2,.box3,.box4{
+        box-shadow: 0 1px 0 0 hsl(229, 6%, 66%), 0 3px 10px 0 hsl(229, 6%, 66%);
+        padding: 2% 2%;
+        width: 20%;
+        margin: 2% 0;
+        border-radius: 3px;
+    }
+
+    .container .boxes .box1{
+        border-top: 4px solid hsl(180, 62%, 55%);
+        position: absolute;
+        top: 50%;
+        left: 14%;
+    }
+    
+    .container .boxes .box2{
+        border-top: 4px solid hsl(0, 78%, 62%);
+        position: absolute;
+        top: 30%;
+        left: 40%;
+    }
+    
+    .container .boxes .box3{
+        border-top: 4px solid hsl(34, 97%, 64%);
+        position: absolute;
+        top: 65%;
+        left: 40%;
+    }
+    
+    .container .boxes .box4{
+        border-top: 4px solid hsl(212, 86%, 64%);
+        position: absolute;
+        top: 50%;
+        left: 66%;
+    }
+
+
+    footer{
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+}
